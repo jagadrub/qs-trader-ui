@@ -33,62 +33,77 @@ export default function Home() {
 
       <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
         <a
-          href="#"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+          href="/strategies"
+          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-green-400 hover:bg-green-50 hover:dark:border-green-400 hover:dark:bg-green-900/30"
         >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Portfolio{' '}
+          <h2 className={`mb-3 text-2xl font-semibold text-green-700 dark:text-green-300`}>
+            Strategies{' '}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
           </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            View your current portfolio holdings and performance.
+          <p className={`m-0 max-w-[30ch] text-sm opacity-70`}>
+            View and run available trading strategies.
           </p>
         </a>
 
         <a
-          href="#"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+          href="/tickers"
+          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-purple-400 hover:bg-purple-50 hover:dark:border-purple-400 hover:dark:bg-purple-900/30"
         >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Orders{' '}
+          <h2 className={`mb-3 text-2xl font-semibold text-purple-700 dark:text-purple-300`}>
+            Tickers{' '}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
           </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Manage your buy and sell orders.
+          <p className={`m-0 max-w-[30ch] text-sm opacity-70`}>
+            Browse available market ticker symbols.
           </p>
         </a>
 
         <a
-          href="#"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+          href="/risk-profiles"
+          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-orange-400 hover:bg-orange-50 hover:dark:border-orange-400 hover:dark:bg-orange-900/30"
         >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Charts{' '}
+          <h2 className={`mb-3 text-2xl font-semibold text-orange-700 dark:text-orange-300`}>
+            Risk Profiles{' '}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
           </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Analyze market data with interactive charts.
+          <p className={`m-0 max-w-[30ch] text-sm opacity-70`}>
+            Explore predefined risk allocation profiles.
           </p>
         </a>
 
         <a
-          href="#"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+          href="/help"
+          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-blue-400 hover:bg-blue-50 hover:dark:border-blue-400 hover:dark:bg-blue-900/30"
         >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Settings{' '}
+          <h2 className={`mb-3 text-2xl font-semibold text-blue-700 dark:text-blue-300`}>
+            Help & API Docs{' '}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
           </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Configure your trading preferences and account settings.
+          <p className={`m-0 max-w-[30ch] text-sm opacity-70`}>
+            View API documentation and help information.
+          </p>
+        </a>
+
+        <a
+          href="/help"
+          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-blue-400 hover:bg-blue-50 hover:dark:border-blue-400 hover:dark:bg-blue-900/30"
+        >
+          <h2 className={`mb-3 text-2xl font-semibold text-blue-700 dark:text-blue-300`}>
+            Help & API Docs{' '}
+            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
+              -&gt;
+            </span>
+          </h2>
+          <p className={`m-0 max-w-[30ch] text-sm opacity-70`}>
+            View API documentation and help information.
           </p>
         </a>
       </div>
