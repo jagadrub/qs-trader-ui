@@ -36,7 +36,7 @@ export default function HelpPage() {
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
-    fetch("http://localhost:8000/help")
+    fetch("/api/proxy?endpoint=/help")
       .then((res) => {
         if (!res.ok) throw new Error("Failed to fetch help info");
         return res.json();

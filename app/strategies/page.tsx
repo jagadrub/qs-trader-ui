@@ -14,7 +14,7 @@ export default function StrategiesPage() {
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
-    fetch("http://localhost:8000/strategies")
+    fetch("/api/proxy?endpoint=/strategies")
       .then((res) => {
         if (!res.ok) throw new Error("Failed to fetch strategies");
         return res.json();

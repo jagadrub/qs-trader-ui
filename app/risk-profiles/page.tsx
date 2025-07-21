@@ -15,7 +15,7 @@ export default function RiskProfilesPage() {
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
-    fetch("http://localhost:8000/risk-profiles")
+    fetch("/api/proxy?endpoint=/risk-profiles")
       .then((res) => {
         if (!res.ok) throw new Error("Failed to fetch risk profiles");
         return res.json();

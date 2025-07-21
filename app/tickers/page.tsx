@@ -14,7 +14,7 @@ export default function TickersPage() {
   const [searchTerm, setSearchTerm] = useState("");
 
   useEffect(() => {
-    fetch("http://localhost:8000/tickers")
+    fetch("/api/proxy?endpoint=/tickers")
       .then((res) => {
         if (!res.ok) throw new Error("Failed to fetch tickers");
         return res.json();
